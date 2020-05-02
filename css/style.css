@@ -1,0 +1,243 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #ff80f4;
+	font-family: 'oxygen',sans-serif;
+
+}
+#header-nav{
+	background-color: #2acacd;
+	border-radius: 0;
+	border: 0;
+
+}
+#logo-img{
+	background: url('../images/logo.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+.navbar-brand h1{
+
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora',serif;
+	color: #557c3e;
+	font-size: 1.5m;
+	text-transform: uppercase;
+	font-weight: bold;text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height.75;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+#nav-list{
+	margin-top: 10px;
+
+}
+#nav-list a{
+	color: #951c49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #e7e7e7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+
+}
+#phone{
+	margin-top: 5px;
+
+
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: 1px solid #61122f
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+/*home page*/
+.container .jumbotron{
+	box-shadow: 0 0 50px #3f0c1f;
+	border: 2px solid #3f0c1f;
+}
+#performance-tiles, #class-tiles, #map-tiles{
+	width: 100%;
+	height: 250px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #f0c1f;
+	overflow: hidden;
+}
+#performance-tiles:hover, #class-tiles:hover,#map-tiles:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#performance-tiles{
+	background: url(../images/performance.jpg) no-repeat;
+	background-position: center;
+}
+#class-tiles{
+	background: url(../images/class.png) no-repeat;
+	background-position: center;
+
+}
+
+#performance-tiles span, #class-tiles span, #map-tiles span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	
+}
+/*footer*/
+#Timing,#Address,#Testimonials{
+
+}
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#Timing,#Address{
+	line-height: 2;
+}
+#Timing > span,#Address > span{
+	font-size: 1.3em;
+}
+#Testimonials{
+	font-style: italic;
+
+}
+#Testimonials p :nth-child(1){
+	margin-top: 25px;
+}
+
+	
+@media(min-width: 1200px){
+	.jumbotron{
+		background: url(../images/big.jpg)no-repeat;
+		height: 1000px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	
+	.jumbotron{
+		background: url(../images/small.jpg)no-repeat;
+		height: 500px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+	.navbar-band p span{
+		padding-bottom: 20px;
+		margin-bottom: 25px;
+	}
+	.navbar-brand{
+		height: 130px;
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+		background: url('../images/logo.png') no-repeat;
+		width: 100px;
+		height: 120px;
+		margin: 5px 5px 5px 0;
+
+	}
+	.jumbotron{
+		background: url(../images/mid.jpg)no-repeat;
+		height: 700px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+	
+}
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 100px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+
+		text-transform: uppercase;
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img{
+		height: 30px;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+
+
+	}
+	#call-btn > a{
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20 px;
+		padding: 10px;
+		border: 2px solid #fff;
+		background-color: #30ccc9;
+		color: #951c49;
+	}
+	#performance-tiles,#class-tiles{
+		width: 360px;
+		margin: 0  auto 15px;
+	}
+
+	.container .jumbotron{
+		margin-top: 30px;
+		padding: 0;
+		
+	}
+	/*footer*/
+	.panel-footer section{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.panel-footer section :nth-child(3){
+		margin-bottom: 0;
+	}
+	.panel-footer section hr{
+		width: 50%;
+	}
+	
+}
