@@ -138,6 +138,26 @@ body{
 #Testimonials p :nth-child(1){
 	margin-top: 25px;
 }
+.category-tile{
+		position: relative;
+		border: 2px solid #3f0c1f;
+		overflow: hidden;
+		width: 200px;
+		height: 130px;
+		margin: 0 auto 15px;
+	}
+	.category-tile span{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+		background-color: black;
+		opacity: 0.8;
+	}
+	.category-tile:hover{
+		box-shadow: 0 1px 5px 1px #cccccc;
+	}
 
 	
 @media(min-width: 1200px){
@@ -228,6 +248,8 @@ body{
 		padding: 0;
 		
 	}
+
+
 	/*footer*/
 	.panel-footer section{
 		margin-bottom: 30px;
